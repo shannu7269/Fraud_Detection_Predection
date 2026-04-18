@@ -2,13 +2,12 @@
 🚀 Project Overview
 
 This project focuses on detecting fraudulent financial transactions using machine learning techniques. It combines exploratory data analysis, feature engineering, predictive modeling, cost analysis, and dashboard visualization to generate actionable business insights.
-
 The solution helps financial institutions and digital payment companies:
-
 Detect fraudulent transactions accurately
 Reduce financial losses
 Minimize false alarms
 Improve fraud monitoring efficiency
+
 📁 Project Structure
 ├── code/
 │   └── Fraud_Detection_Project.ipynb
@@ -21,10 +20,9 @@ Improve fraud monitoring efficiency
 ├── documentation/
 │   └── Project_Report.pdf
 └── README.md
+
 📌 Problem Statement
-
 Financial institutions often face challenges in identifying fraudulent transactions because fraud cases represent only a very small percentage of overall transactions.
-
 This project builds a classification model to predict whether a transaction is fraudulent and helps organizations optimize fraud prevention strategies.
 
 🧠 Key Features of the Project
@@ -54,13 +52,12 @@ Feature scaling using StandardScaler
 Handling class imbalance using balancing techniques / oversampling
 
 🤖 Machine Learning Models
-
 Implemented and compared multiple machine learning models:
-
 Logistic Regression
 Decision Tree
 Random Forest
 XGBoost
+
 ⚙️ Model Optimization
 Hyperparameter tuning using GridSearchCV
 Model comparison using:
@@ -71,9 +68,7 @@ ROC-AUC
 PR-AUC
 
 🏆 Best Performing Model
-
 The Random Forest model achieved the best balance between precision and recall.
-
 Final Random Forest Performance
 Training Accuracy: 99.99%
 Testing Accuracy: 99.46%
@@ -87,8 +82,8 @@ Best Hyperparameters
     'min_samples_split': 2,
     'n_estimators': 200
 }
-💰 Financial Impact Analysis
 
+💰 Financial Impact Analysis
 To understand the business value of the model, the project estimates the cost of fraud detection errors.
 
 Cost Assumptions
@@ -96,13 +91,10 @@ False Negative Cost = ₹1000
 False Positive Cost = ₹10
 
 Business Insight
-
 The fraud detection model significantly reduces losses by identifying fraudulent transactions before they occur.
 
 📊 Dashboard Visualization
-
 The project includes an interactive dashboard to visualize transaction behavior and fraud trends.
-
 Dashboard Highlights
 Total Transaction Steps: 55K
 Total Transaction Amount: 1.36B
@@ -118,7 +110,6 @@ Fraud activity fluctuates across transaction steps and appears in repeated spike
 Business Interpretation
 
 The dashboard suggests that fraud monitoring systems should pay special attention to:
-
 Large-value transfer transactions
 Sudden cash-out transactions
 Periods where fraud spikes occur
@@ -132,12 +123,13 @@ Build a real-time fraud detection pipeline
 Deploy the model using Flask or Streamlit
 Add SHAP values for model explainability
 Integrate with banking systems for live monitoring
+
 🎯 Business Impact
 Reduces fraud-related losses
 Improves fraud detection efficiency
 Enables faster response to suspicious activity
 Supports data-driven decision making
-👨‍💻 Author
 
+👨‍💻 Author
 Shanmukha Appari
 Aspiring Data Scientist | Machine Learning Enthusiast
